@@ -140,7 +140,6 @@ class GildedRoseTest extends TestCase
 
     public function testFactory(): void
     {
-        $items = [];
         $items = [
             new Item('Un truc', 5, 45),
             new Item('Aged Brie', 5, 45),
